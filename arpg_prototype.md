@@ -1,46 +1,73 @@
 # Unnamed ARPG
 
-I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. 
-### dar mais um detalhe do cutscene manager
-### gif de fade-in do mapa
+This was my first earnest attempt at a "real" game. It was an action RPG, where the exploration and battles were done in a constinuous fashion. There were no transitions to battle and there was no turn order when fighting. This was to be a story heavy, story driven game.
 
+## Cutscenes
+For the story exposition, I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. 
+#### dar mais um detalhe do cutscene manager
+
+#### gif de fade-in do mapa
+One of the things that I would do differently today would be to check out what are the industry norms for these systems. They already exist, I don't have to re-invent them. It is fun to carve my own path, but very time consuming.
+
+## Gameplay
 I decided to restrict movement to the 4 isometric directions of the tiles to reduce in half the amount of sprites I would have to create. This was important because I am not an artist and had to spend too much time creating the sprites and animations.
 By double tapping in a direction, the player would be able to do quick sidestep/jump. This was used for platforming, to jump over small holes, and in combat, for quick repositioing. This movement drained stamina as to not be abused by the player.
-### gif de sidestep
+#### gif de sidestep
 
 Locking the game to the NW, NE, SE and SW directions was my biggest oversight.
-### imagem do tutorial com ASWD
+#### imagem do tutorial com ASWD
 To me, an avid gamer and FFT lover, the movement felt natural even if the WASD (or Up Left Down Right) keys don't directly map to isometric directions. However, testing the game with friends they stated having trouble commading the character. And these friends aren't my mom. They are gamers, just haven't been exposed to FFT/FFTA on a WASD/D-Pad.
 
 Since this game is not a turn-based game like FFT, but an real-time action focused one, this problem was probably a project killer if not addressed.
 
 The combat system was active and real-time. The player could move freely and so could the enemies. The player was able to use melee attacks on enemies as well as on breakable objects.
-### gif a partir objecto
+#### gif a partir objecto
 
 The player had access to magic that could also bue used as long as the player had the necessary mana for the respective spell.
 The regain mana, the player could stop and focus for some seconds.
 
-### gif a ganhar mana
+#### gif a ganhar mana
+
+## Battle UI
 
 In regards to the UI, the player portrait was shown in the top left corner of the map, along with Health, Mana and Stamina.
 
-### imagem do portrait
+#### imagem do portrait
 
 For the enemies, a dynamic UI was created. It appeared when they showed up in the map and disappeared after beign defeated. In case of bosses, they had a unique look, but functioned more of less the same (they were prioritized/always on top).
 
-### gif do UI de inimigos/bosses a aparecer
+#### gif do UI de inimigos/bosses a aparecer
 
 For the spells, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
 
-### gif do seleção de spells
+#### gif do seleção de spells
+
+A similar system was used for item management during battles.
+
+#### gif dos items
+
+## Exploration UI
 
 The game used a pop-up icon above the player head, akin to FF9 (yes, yes, I love FF, leave me alone!), when actions were available to the player (talking to an NPC, investigating an object, opening a teasure chest).
 
-### gif de pop-up a aparecer
+#### gif de pop-up a aparecer
 
-## Tutorial/notification UI
-## Conversation UI
-## Chest UI
+For in-game tutorial or notifications, a notification system was developed to show special information on the top-right corner of the screen
 
+#### gif com exemplo da cena do tutorial
 
+#### explicar o tutorial?
+
+For the bubble chats, I developed a XXXXX bubble sizes. The logic on which size to use was done by YYYYYYY.
+For translations, the idea was to ZZZZZZ.
+The arrow was dynamic and showed up from the source of the conversation.
+There were HHHHHH types of bubbles for A, B and C.
+
+#### gif showing Conversation UI
+
+For the chest UI, a special bubble would show up in the center of the screen stating what was obtained.
+#### gif of chest UI
+
+## Final thoughts
+This was just the prototype for the base gameplay loop, with some ideas I had. If continued, the final product would probalby look very different as ideas were to be refined. I underestimated the task of overestimated my habilities to be able to make a game in a reasonable amount of time. I have great respect for those who were able to follow this route, but as this and PTGP prooved, it is just too big a task for me alone.
 
