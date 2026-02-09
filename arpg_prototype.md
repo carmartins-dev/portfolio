@@ -3,11 +3,12 @@
 This was my first earnest attempt at a "real" game. It was an action RPG, where the exploration and battles were done in a constinuous fashion. There were no transitions to battle and there was no turn order when fighting. This was to be a story heavy, story driven game.
 
 ## Cutscenes
-For the story exposition, I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. 
-#### dar mais um detalhe do cutscene manager
-
+For the story telling, I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. It allowed for map title screens/introductions, in-scene conversation, character and camera manipulation and fade in/out. 
+The system would use be split into chuncks that would play sequencially. This allowed for changes in a chunck not to require changing the whole cutscene. This approach was also allowed for more flexibility in changing conversation chuncks where the player was interacting with the game and the scene couldn't play until the player advanced the conversation.
 #### gif de fade-in do mapa
-One of the things that I would do differently today would be to check out what are the industry norms for these systems. They already exist, I don't have to re-invent them. It is fun to carve my own path, but very time consuming.
+
+This system worked, but needed some work to be able to be used in a full game. As it was, each part of the cutscene had to be made from scratch, and althought all cutscenes will need manual direction, some aspects of it could be automated to be reused. 
+One of the things that I would do differently today would be to check out what are the industry norms for these systems. I created this by developing what/how I thought it made sense, but these already exist and have been well thought out. I don't have to re-invent them and risk falling into known traps. It is fun to carve my own path, but very time consuming and risky.
 
 ## Gameplay
 I decided to restrict movement to the 4 isometric directions of the tiles to reduce in half the amount of sprites I would have to create. This was important because I am not an artist and had to spend too much time creating the sprites and animations.
@@ -15,8 +16,8 @@ By double tapping in a direction, the player would be able to do quick sidestep/
 #### gif de sidestep
 
 Locking the game to the NW, NE, SE and SW directions was my biggest oversight.
-#### imagem do tutorial com ASWD
-To me, an avid gamer and FFT lover, the movement felt natural even if the WASD (or Up Left Down Right) keys don't directly map to isometric directions. However, testing the game with friends they stated having trouble commading the character. And these friends aren't my mom. They are gamers, just haven't been exposed to FFT/FFTA on a WASD/D-Pad.
+#### imagem do tutorial com ASWD 
+As an avid gamer and FFT lover, the movement felt natural to me even if the WASD (or Up Left Down Right) keys don't directly map to isometric directions. However, testing the game with friends they stated having trouble commading the character. And these friends aren't my mom. They are gamers, just haven't been exposed to FFT/FFTA on a WASD/D-Pad.
 
 Since this game is not a turn-based game like FFT, but an real-time action focused one, this problem was probably a project killer if not addressed.
 
@@ -58,7 +59,7 @@ For in-game tutorial or notifications, a notification system was developed to sh
 
 #### explicar o tutorial?
 
-For the bubble chats, I developed a XXXXX bubble sizes. The logic on which size to use was done by YYYYYYY.
+For the conversations, I developed a 4 conversation bubble sizes. The logic on which size to use was done by YYYYYYY.
 For translations, the idea was to ZZZZZZ.
 The arrow was dynamic and showed up from the source of the conversation.
 There were HHHHHH types of bubbles for A, B and C.
