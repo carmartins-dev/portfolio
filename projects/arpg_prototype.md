@@ -15,6 +15,7 @@ One of the things that I would do differently today would be to check out what a
 I decided to restrict movement to the 4 isometric directions of the tiles to reduce in half the amount of sprites I would have to create. This was important because, since I am not an artist and had to spend too much time creating the sprites and animations, this would substantially cut in half the amount of sprites needed (vs 8 directions to include up, down, left and right).
 By double tapping in a direction, the player would be able to do quick sidestep/jump. This was used for platforming, to jump over small holes, and in combat, for quick repositioing. This movement drained stamina as to not be abused by the player.
 <!-- <img src="assets/arpg_prototype/dash_15fps_320px.gif" alt="Dash" width="640" style="image-rendering: pixelated;"> -->
+<video src="assets/arpg_prototype/dash_2.mp4" autoplay loop muted style="width:480px;"></video>
 <video src="assets/arpg_prototype/dash.mp4" autoplay loop muted style="width:480px;"></video>
 
 Locking the game to the NW, NE, SE and SW directions was probably my biggest oversight.
