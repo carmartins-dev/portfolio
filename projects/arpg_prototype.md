@@ -51,7 +51,7 @@ A similar system was used for item management during battles.
 The game used a pop-up icon above the player head, akin to FF9 (yes, yes, I love FF, leave me alone!), when actions were available to the player (talking to an NPC, investigating an object, opening a teasure chest).
 
 <!-- [Opening a treasure chest](assets/arpg_prototype/opening_chest_20fps_320p.gif) -->
-<img src="assets/arpg_prototype/opening_chest_20fps_320p.gif" alt="Opening a treasure chest" width="640" style="image-rendering: pixelated;">
+#### meter gif a mostrar vários icons de ação
 
 
 For in-game tutorial or notifications, a notification system was developed to show special information on the top-right corner of the screen
@@ -67,8 +67,9 @@ There were HHHHHH types of bubbles for A, B and C.
 
 #### gif showing Conversation UI
 
-For the chest UI, a special bubble would show up in the center of the screen stating what was obtained.
-#### gif of chest UI
+For the chest UI, a special bubble would show up bottom-centered stating what the player obtained.
+<img src="assets/arpg_prototype/opening_chest_20fps_320p.gif" alt="Opening a treasure chest" width="640" style="image-rendering: pixelated;">
+There was also logic for storing the items in the inventory, but inventory management UI was not yet created, other then for the ones that were to be used in battle that showed up on the bottom left corner of the screen.
 
 ## Final thoughts
 This was just the prototype for the base gameplay loop, with some ideas I had. If continued, the final product would probalby look very different as ideas were to be refined. I underestimated the task of overestimated my habilities to be able to make a game in a reasonable amount of time. I have great respect for those who were able to follow this route, but as this and PTGP prooved, it is just too big a task for me alone.
