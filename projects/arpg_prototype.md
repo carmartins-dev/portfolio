@@ -14,7 +14,7 @@ One of the things that I would do differently today would be to check out what a
 ## Gameplay
 I decided to restrict movement to the 4 isometric directions of the tiles to reduce in half the amount of sprites I would have to create. This was important because, since I am not an artist and had to spend too much time creating the sprites and animations, this would substantially cut in half the amount of sprites needed (vs 8 directions to include up, down, left and right).
 By double tapping in a direction, the player would be able to do quick sidestep/jump. This was used for platforming, to jump over small holes, and in combat, for quick repositioing. This movement drained stamina as to not be abused by the player.
-<img src="assets/arpg_prototype/dash_24fps_480p.gif" alt="Dash" width="640" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/dash_15fps_320px.gif" alt="Dash" width="640" style="image-rendering: pixelated;">
 
 Locking the game to the NW, NE, SE and SW directions was probably my biggest oversight.
 As an avid gamer and FFT lover, the movement felt relatively natural to me even if the WASD (or Up Left Down Right) keys don't directly map to isometric directions. However, testing the game with friends they stated having trouble commading the character. And these friends aren't my mom. They are gamers, just haven't been exposed to FFT/FFTA on a WASD/D-Pad.
