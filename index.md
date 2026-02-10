@@ -13,7 +13,7 @@ Still, I had a lot of fun developing this prototype and I was able to explore so
 
 Both the isometric look of the game and the story heavy planned for it was inspired on titles such as Final Fantasy Tactics. Even though the game was not played by turns, I decided to keep the game elements locked to a grid logic. I felt this was the best approach to limit the scope and be able to assert more control over the gameplay. 
 
-### [Take an in-depth look into what I developed for this project](arpg_prototype.md) 
+### [Take an in-depth look into what I developed for this project](projects/arpg_prototype.md) 
 
 
 

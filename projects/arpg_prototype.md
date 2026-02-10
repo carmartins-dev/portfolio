@@ -5,6 +5,7 @@ This was my first earnest attempt at a "real" game. It was an action RPG, where 
 ## Cutscenes
 For the story telling, I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. It allowed for map title screens/introductions, in-scene conversation, character and camera manipulation and fade in/out. 
 The system would use be split into chuncks that would play sequencially. This allowed for changes in a chunck not to require changing the whole cutscene. This approach was also allowed for more flexibility in changing conversation chuncks where the player was interacting with the game and the scene couldn't play until the player advanced the conversation.
+[Cutscene fade-in example](assets/arpg_prototype/cutscene_fadein_15fps.gif)
 #### gif de fade-in do mapa -> isto tem de ser diretamento do unity. ver se é possível
 
 This system worked, but needed some work to be able to be used in a full game. As it was, each part of the cutscene had to be made from scratch, and althought all cutscenes will need manual direction, some aspects of it could be automated to be reused. 
