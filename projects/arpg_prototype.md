@@ -23,7 +23,7 @@ As an avid gamer and FFT lover, the movement felt relatively natural to me even 
 Since this game is not a turn-based game like FFT, but an real-time action focused one, this problem was probably a project killer if not addressed.
 
 The combat system was active and real-time. The player could move freely and so could the enemies. Outside of battle, the player was able to use melee attacks on breakable objects.
-#### gif a partir objecto -> se existir em video. talvez em unity se conseguir tratar dos problemas deste build. Tentar encontrar build do jogo
+<video src="assets/arpg_prototype/breaking_object.mp4" autoplay loop muted style="width:480px;"></video>
 
 The player had access to magic that could be used as long as the player had the necessary mana for the respective spell.
 The regain mana, the player could stop and focus for some seconds.
