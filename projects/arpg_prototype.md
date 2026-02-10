@@ -15,14 +15,14 @@ One of the things that I would do differently today would be to check out what a
 I decided to restrict movement to the 4 isometric directions of the tiles to reduce in half the amount of sprites I would have to create. This was important because, since I am not an artist and had to spend too much time creating the sprites and animations, this would substantially cut in half the amount of sprites needed (vs 8 directions to include up, down, left and right).
 By double tapping in a direction, the player would be able to do quick sidestep/jump. This was used for platforming, to jump over small holes, and in combat, for quick repositioing. This movement drained stamina as to not be abused by the player.
 <!-- <img src="assets/arpg_prototype/dash_15fps_320px.gif" alt="Dash" width="640" style="image-rendering: pixelated;"> -->
-<video src="assets/arpg_prototype/dash_2.mp4" autoplay loop muted style="width:480px;"></video>
-<video src="assets/arpg_prototype/dash.mp4" autoplay loop muted style="width:480px;"></video>
+<video src="assets/arpg_prototype/dash_extended.mp4" autoplay loop muted style="width:480px;"></video>
+<!-- <video src="assets/arpg_prototype/dash.mp4" autoplay loop muted style="width:480px;"></video> -->
 
 Locking the game to the NW, NE, SE and SW directions was probably my biggest oversight.
 As an avid gamer and FFT lover, the movement felt relatively natural to me even if the WASD (or Up Left Down Right) keys don't directly map to isometric directions. However, testing the game with friends they stated having trouble commading the character. And these friends aren't my mom. They are gamers, just haven't been exposed to FFT/FFTA on a WASD/D-Pad.
 Since this game is not a turn-based game like FFT, but an real-time action focused one, this problem was probably a project killer if not addressed.
 
-The combat system was active and real-time. The player could move freely and so could the enemies. The player was able to use melee attacks on enemies as well as on breakable objects.
+The combat system was active and real-time. The player could move freely and so could the enemies. Outside of battle, the player was able to use melee attacks on breakable objects.
 #### gif a partir objecto -> se existir em video. talvez em unity se conseguir tratar dos problemas deste build. Tentar encontrar build do jogo
 
 The player had access to magic that could be used as long as the player had the necessary mana for the respective spell.
