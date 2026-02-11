@@ -35,7 +35,7 @@ In regards to the UI, the player portrait was shown in the top left corner of th
 <img src="assets/arpg_prototype/ui_portrait.png" alt="Dash" width="320" style="image-rendering: pixelated;">
 
 For the enemies, a dynamic UI was created. It appeared when they showed up in the map and disappeared after beign defeated. In case of bosses, they had a unique look, but functioned more of less the same (they were prioritized/always on top).
-<video src="assets/arpg_prototype/ui_boss.mp4" autoplay loop muted style="width:480px;"></video>
+<video src="assets/arpg_prototype/ui_boss_img.png" autoplay loop muted style="width:480px;"></video>
 
 For the spells, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
 <video src="assets/arpg_prototype/ui_spells.mp4" autoplay loop muted style="width:480px;"></video>
