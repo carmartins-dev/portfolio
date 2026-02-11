@@ -38,10 +38,10 @@ For the enemies, a dynamic UI was created. It appeared when they showed up in th
 <img src="assets/arpg_prototype/ui_boss_img.png" alt="Dash" width="320" style="image-rendering: pixelated;">
 
 For the spells, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
-<video src="assets/arpg_prototype/ui_spells.mp4" autoplay loop muted style="width:480px;"></video>
+<video src="assets/arpg_prototype/ui_spells.mp4" autoplay loop muted style="width:320px;"></video>
 
 A similar system was used for item management during battles.
-<video src="assets/arpg_prototype/ui_items.mp4" autoplay loop muted style="width:480px;"></video>
+<video src="assets/arpg_prototype/ui_items.mp4" autoplay loop muted style="width:320px;"></video>
 
 ## Exploration UI
 
