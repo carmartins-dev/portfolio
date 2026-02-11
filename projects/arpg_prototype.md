@@ -31,10 +31,10 @@ The regain mana, the player could stop and focus for some seconds.
 
 ## Battle UI
 In regards to the UI, the player portrait was shown in the top left corner of the map, along with health, mana and stamina.
-<img src="assets/arpg_prototype/ui_portrait.png" alt="Dash" width="320" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/ui_portrait.png" alt="Player UI" width="320" style="image-rendering: pixelated;">
 
 For the enemies, a dynamic UI was created. It appeared when they showed up in the map and disappeared after beign defeated. The enemy UI appeared on the top-right corner, opposing the player's UI.  In case of bosses, they had a unique look, but functioned more or less the same (although they were prioritized/always on top).
-<img src="assets/arpg_prototype/ui_boss_img.png" alt="Dash" width="320" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/ui_boss_img.png" alt="Boss UI" width="320" style="image-rendering: pixelated;">
 
 For the spell selection, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
 <video src="assets/arpg_prototype/ui_spells.mp4" autoplay loop muted style="width:320px;"></video>
@@ -50,7 +50,7 @@ For the remaining spells, the player would select where they should be used and 
 
 For items usage during battle, the UI in the bottom-left showed which item was selected.
 <!-- <video src="assets/arpg_prototype/ui_items.mp4" autoplay loop muted style="width:320px;"></video> -->
-<img src="assets/arpg_prototype/ui_items_img.png" alt="Dash" width="160" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/ui_items_img.png" alt="Item selection UI" width="320" style="image-rendering: pixelated;">
 The items were usable to regain health and mana, but no animations for usage had yet been developed.
 
 ## Exploration UI
@@ -65,7 +65,7 @@ For in-game tutorial or notifications, a notification system was developed to sh
 <video src="assets/arpg_prototype/ui_tutorial_attack.mp4" autoplay loop muted style="width:320px;"></video>
 <!-- <video src="assets/arpg_prototype/ui_tutorial_mana.mp4" autoplay loop muted style="width:240px;"></video> -->
 
-#### explicar o tutorial?
+The tutorial would show how the player how to move, use the action button and provide guidance on the mechanics of the combat system.
 
 For the conversations, I developed a 4 conversation bubble sizes. The logic on which size to use was done by YYYYYYY.
 For translations, the idea was to ZZZZZZ.
