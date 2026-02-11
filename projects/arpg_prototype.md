@@ -52,7 +52,8 @@ The game used a pop-up icon above the player head, akin to FF9 (yes, yes, I love
 
 
 For in-game tutorial or notifications, a notification system was developed to show special information on the top-right corner of the screen
-<video src="assets/arpg_prototype/ui_tutorial_attack.mp4" autoplay loop muted style="width:480px;"></video>
+<video src="assets/arpg_prototype/ui_tutorial_attack.mp4" autoplay loop muted style="width:240px;"></video>
+<video src="assets/arpg_prototype/ui_tutorial_mana.mp4" autoplay loop muted style="width:240px;"></video>
 
 #### explicar o tutorial?
 
