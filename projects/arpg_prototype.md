@@ -1,6 +1,6 @@
 # Unnamed ARPG
 
-This was my first earnest attempt at a "real" game. It was an action RPG, where the exploration and battles were done in a constinuous fashion. There were no transitions to battle and there was no turn order when fighting. This was to be a story heavy, story driven game.
+This was my first earnest attempt at a "real" game. It was story driver pixel art RPG adventure, where the exploration and battles were done in a continuous fashion. There were no transitions to battle and there was no turn order when fighting. This was to be a story heavy, story driven game.
 
 ## Cutscenes
 For the story telling, I developed a "cutscene manager" to be able to direct cutscenes and merge them with the gameplay. It allowed for map title screens/introductions, in-scene conversation, character and camera manipulation and fade in/out. 
@@ -30,18 +30,28 @@ The regain mana, the player could stop and focus for some seconds.
 <video src="assets/arpg_prototype/recover_mana.mp4" autoplay loop muted style="width:480px;"></video>
 
 ## Battle UI
-
-In regards to the UI, the player portrait was shown in the top left corner of the map, along with Health, Mana and Stamina.
+In regards to the UI, the player portrait was shown in the top left corner of the map, along with health, mana and stamina.
 <img src="assets/arpg_prototype/ui_portrait.png" alt="Dash" width="320" style="image-rendering: pixelated;">
 
-For the enemies, a dynamic UI was created. It appeared when they showed up in the map and disappeared after beign defeated. In case of bosses, they had a unique look, but functioned more of less the same (they were prioritized/always on top).
+For the enemies, a dynamic UI was created. It appeared when they showed up in the map and disappeared after beign defeated. The enemy UI appeared on the top-right corner, opposing the player's UI.  In case of bosses, they had a unique look, but functioned more or less the same (although they were prioritized/always on top).
 <img src="assets/arpg_prototype/ui_boss_img.png" alt="Dash" width="320" style="image-rendering: pixelated;">
 
-For the spells, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
+For the spell selection, the player could rotate between the available spells. These would be seen in the spells UI at the bottom right of the screen.
 <video src="assets/arpg_prototype/ui_spells.mp4" autoplay loop muted style="width:320px;"></video>
 
-A similar system was used for item management during battles.
-<video src="assets/arpg_prototype/ui_items.mp4" autoplay loop muted style="width:320px;"></video>
+When the player pressed the magic button, time would stop (enemies, etc would stop moving) and the UI would appear to confirm how the spell would be used. For each of the four spells, there was an acompayining UI element. 
+For the fire spell, the player had to select the direction.
+<video src="assets/arpg_prototype/spell_fire_anim.mp4" autoplay loop muted style="width:320px;"></video>
+
+For the remaining spells, the player would select where they should be used and their area of effect would be shown as a priview.
+<img src="assets/arpg_prototype/ui_spell_wall.png" alt="Cork wall cast UI" height="160" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/ui_spell_lightning.png" alt="Lightning cast UI" height="160" style="image-rendering: pixelated;">
+<img src="assets/arpg_prototype/ui_spell_ice.png" alt="Ice wall cast UI" height="160" style="image-rendering: pixelated;">
+
+For items usage during battle, the UI in the bottom-left showed which item was selected.
+<!-- <video src="assets/arpg_prototype/ui_items.mp4" autoplay loop muted style="width:320px;"></video> -->
+<img src="assets/arpg_prototype/ui_items_img.png" alt="Dash" width="160" style="image-rendering: pixelated;">
+The items were usable to regain health and mana, but no animations for usage had yet been developed.
 
 ## Exploration UI
 
@@ -52,8 +62,8 @@ The game used a pop-up icon above the player head, akin to FF9 (yes, yes, I love
 
 
 For in-game tutorial or notifications, a notification system was developed to show special information on the top-right corner of the screen
-<video src="assets/arpg_prototype/ui_tutorial_attack.mp4" autoplay loop muted style="width:240px;"></video>
-<video src="assets/arpg_prototype/ui_tutorial_mana.mp4" autoplay loop muted style="width:240px;"></video>
+<video src="assets/arpg_prototype/ui_tutorial_attack.mp4" autoplay loop muted style="width:320px;"></video>
+<!-- <video src="assets/arpg_prototype/ui_tutorial_mana.mp4" autoplay loop muted style="width:240px;"></video> -->
 
 #### explicar o tutorial?
 
@@ -67,7 +77,7 @@ For the chest UI, a special bubble would show up bottom-centered stating what th
 <!-- <img src="assets/arpg_prototype/opening_chest_20fps_320p.gif" alt="Opening a treasure chest" width="640" style="image-rendering: pixelated;"> -->
 <video src="assets/arpg_prototype/chest.mp4" autoplay loop muted style="width:480px;"></video>
 
-There was also logic for storing the items in the inventory, but inventory management UI was not yet created, other then for the ones that were to be used in battle that showed up on the bottom left corner of the screen.
+I developed the logic for storing the items in the inventory, but did not get to the inventory management UI, other then for the ones that were to be used in battle that showed up on the bottom left corner of the screen.
 
 ## Final thoughts
 This was just the prototype for the base gameplay loop, with some ideas I had. If continued, the final product would probalby look very different as ideas were to be refined. I underestimated the task of overestimated my habilities to be able to make a game in a reasonable amount of time. I have great respect for those who were able to follow this route, but as this and PTGP prooved, it is just too big a task for me alone.
