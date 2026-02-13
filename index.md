@@ -17,9 +17,8 @@ With this project I was aiming at creating a fully fledged story-driven game wit
 
 <img src="projects/assets/arpg_prototype/preview_cropped.png" alt="ARPG Cover" width="460" style="image-rendering: pixelated;"><br>
 
-I had a lot of fun with this project. I was able to develop interesting gameplay systems and explored a lot of interesting game design ideas.
-
 Both the isometric look of the game and the story-heavy elements I had planned were inspired by titles such as Final Fantasy Tactics. 
+I had a lot of fun with this project. I was able to develop interesting gameplay systems and explored a lot of interesting game design ideas.
 
 [Click here](projects/arpg_prototype.md) to take an in-depth look into what I developed for this project, design choices and many other details.
 
