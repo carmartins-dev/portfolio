@@ -5,7 +5,7 @@ I'm a Technical Lead passionate about gaming and software development. This port
 
 Here you can find some of the games and prototypes I've developed. In these projects I designed and implemented complete systems end-to-end, from gameplay architecture to backend integrations and deployment.
 
-Note that this portfolio is being expanded. I'm currently adding the technical considerations on the Prototype page. The in-depth pages for my other projects will be added later.
+Note that this portfolio is being expanded. I'm currently adding the technical considerations to the Prototype page. The in-depth pages for my other projects will be added later.
 
 <img src="projects/assets/chest_separator.png" alt="Chest separator" width="460" style="image-rendering: pixelated;">
 
@@ -18,9 +18,9 @@ With this project I was aiming at creating a fully fledged story-driven game wit
 <img src="projects/assets/arpg_prototype/preview_cropped.png" alt="ARPG Cover" width="460" style="image-rendering: pixelated;"><br>
 
 Both the isometric look of the game and the story-heavy elements I had planned were inspired by titles such as Final Fantasy Tactics. 
-I had a lot of fun with this project. I was able to develop interesting gameplay systems and explored a lot of interesting game design ideas.
+I had a lot of fun with this project. I was able to develop interesting gameplay systems and explored a lot of compelling game design ideas.
 
-[Click here](projects/arpg_prototype.md) to take an in-depth look into what I developed for this project, design choices and many other details.
+[Click here](projects/arpg_prototype.md) to take an in-depth look at what I developed for this project, design choices and many other details.
 
 <img src="projects/assets/french_separator_big.png" alt="Chest separator" width="460" style="image-rendering: pixelated;">
 
@@ -33,6 +33,6 @@ Portugal Tourism GP! is an isometric platformer pixel art game developed and pub
 
 As a finished, published game, this project exposed me to new challenges. At this point I was already familiar with the full technical lifecycle of the Unity project, but the online features required extensive work on the backend infrastructure. The cross-platform release also demanded new considerations as the game now required adaptations for each specific platform.
 
-PTGP included online features such as public leaderboards and direct competitive races in streamed events, with prizes for the winners. To enable these competitions, I developed secure APIs to connect the game to its server to submit and update the scores. For the race events, I developed a custom Unity app to display the scores, replays, sketches and also allow the players to interact with the stream itself via the game (emotes such as thumbs up, thumbs down, tomatoes, among others).
+PTGP included online features such as public leaderboards and direct competitive races in streamed events, with prizes for the winners. To enable these competitions, I developed secure APIs to connect the game to its server to submit and update the player highscores. For the race events, I developed a custom Unity app to display the highscores, replays, sketches and also allow the players to interact with the stream itself via the game (emotes such as thumbs up, thumbs down, tomatoes, among others).
 
-Finally I developed a website that showed all the information on the game, hosted the APIs and also displayed the leaderboards.
+Finally, I developed a website that showed all the information on the game, hosted the APIs and also displayed the leaderboards.
