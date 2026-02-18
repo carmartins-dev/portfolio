@@ -2,7 +2,7 @@
 
 ## Context
 
-I started my Unity journey with Portugal Tourism GP!, as a simple prototype (at first, later it evolved into a fully released game). The idea was to gauge how viable it would be to work with an isometric perspective I envisioned, play with prefabs and hone my game design and development skills. After building a small fully playable level, I moved on to a new project, an RPG with a detailed scope and well-thought-out gameplay systems. 
+I started my Unity journey with Portugal Tourism GP!, as a simple prototype (at first, later it evolved into a fully released game). The idea was to gauge how viable it would be to work with an isometric perspective, play with prefabs and hone my game design and development skills. After building a small fully playable level, I moved on to a new project, an RPG with a detailed scope and well-thought-out gameplay systems. 
 
 It was a story-driven pixel art RPG adventure, where the exploration and battles were done seamlessly, without battle transitions or a turn order system during combat.
 
@@ -20,7 +20,7 @@ playsinline
 style="width:100%; max-width:640px; height:auto;"></video>
 
 The Cutscene Manager worked as intended and, along with the gameplay and conversation systems, enabled all the necessary features to tell the story. Going forward, the focus was to create as many reusable cutscene parts as possible to be able to plug-and-play into the different cutscenes. Some minor cutscenes could repeat almost as is (think healing Pokémon at a Pokémon Center or making a delivery in Death Stranding). Other parts of cutscenes, like enemy movement, character expressions and camera movement could be reused in multiple cutscenes to speed up production. Of course this needs to be done tastefully so the repeating aspects are not obvious to the player.
-I realized the importance of this when creating the cutscenes that are in the current build. These scenes took great effort to make, so making small bits of reusable assets would reduce development time significantly in future cutscenes.
+I realized the importance of this when creating the cutscenes that are in the current build. These scenes took great effort to make, so making small bits of reusable assets will reduce development time significantly in future cutscenes.
 
 I decided to make this cutscene management system from scratch as a learning tool. I gained useful experience and the process was very rewarding, but it was time-consuming. For a full production, I would do it differently by researching what the industry norms are for these systems. This would help avoid falling into known pitfalls that could have blindsided me.
 
@@ -28,7 +28,7 @@ I decided to make this cutscene management system from scratch as a learning too
 ### Movement
 I decided to restrict movement to the four isometric directions of tile movement (up-right, down-right, down-left and up-left). This reduced the number of sprites I had to create by half (vs 8 directions if I were to include up, down, left and right). This was especially important since I am not a professional artist and creating new sprites and animations was a significant time investment.
 
-During combat and exploration, the character is controlled by using the arrow or WASD keys. Since the perspective is isometric, the keys don't line up with the direction of movement, as there is a 45º tilt. I used the approach Disgaea and Final Fantasy Tactics use and mapped the controls on the D-Pad/WASD as:
+During combat and exploration, the character is controlled by using the arrow keys/D-Pad or WASD keys. Since the perspective is isometric, the keys don't line up with the direction of movement, as there is a 45º tilt. I used the approach Disgaea and Final Fantasy Tactics use and mapped the controls on the D-Pad/WASD as:
 - Up -> Up-right
 - Right -> Down-right
 - Down -> Down-left
@@ -45,12 +45,12 @@ muted
 playsinline
 style="width:100%; max-width:480px; height:auto;"></video>
 
-After sending a test build to friends, I realized locking the game to the NW, NE, SE and SW directions was probably my biggest oversight. As an avid gamer and FFT lover, the movement felt relatively natural to me even if WASD/D-Pad didn't line up with the isometric directions. However, my friends had trouble controlling the character and had a hard time adjusting. They are gamers, just not exposed to FFT/FFTA on a WASD/D-Pad. Since this game is not a turn-based game like FFT, but a real-time action-focused one, this problem was probably a project killer if not addressed.
+After sending a test build to friends, I realized locking the game to the NW, NE, SE and SW directions was probably my biggest oversight. As an avid gamer and FFT lover, the movement felt relatively natural to me even if WASD/D-Pad didn't line up with the isometric directions. However, my friends had trouble controlling the character and had a hard time adjusting. They are gamers, just not exposed to FFT/FFTA on a WASD/D-Pad. Since this game is not a turn-based game like FFT, but a real-time action-focused one, this problem is probably a project killer if not addressed.
 
 ### Combat
 The combat system is real-time. The player can move freely and so can the enemies. The player can use melee attacks and ranged magic spells. 
 
-When the player presses the magic button, time stops (enemies and other map elements would stop moving) and the spell UI appears for the player to confirm how the magic is be cast. For each of the four spells, there is a respective UI system. 
+When the player presses the magic button, time stops (enemies and other map elements would stop moving) and the spell UI appears for the player to confirm how the magic is used. For each of the four spells, there is a respective UI system. 
 For example, for the fire spell, the player has to select the direction in which the fireball will be shot.<br>
 
 <video src="assets/arpg_prototype/spell_fire_anim.mp4" 
@@ -70,7 +70,7 @@ playsinline
 style="width:100%; max-width:540px; height:auto;"></video>
 
 ### Exploration
-Outside of battle, the player can still use melee attacks and magic spells on interactable objects. Throughout the game, the player can make use of these mechanics to solve puzzles and progress through the maps. For example, in the initial tutorial, the player must use melee attacks to break an obstacle in order to advance. This approach is also used to teach the player how to use the magic spells.<br>
+Outside of battle, the player can still use melee attacks and magic spells on interactable objects. Throughout the game, the player can make use of these mechanics to solve puzzles and progress through the maps. For example, in the initial tutorial, the player must use melee attacks to break an obstacle in order to advance. A similar approach is used later on to teach the player how to use the magic spells.<br>
 <video src="assets/arpg_prototype/breaking_object.mp4" 
 autoplay
 loop
@@ -125,10 +125,10 @@ muted
 playsinline
 style="width:100%; max-width:320px; height:auto;"></video>
 
-The tutorial shows the player how to move, use the action button and provide guidance on the mechanics of the combat system.<br>
+A tutorial was created to show the player how to control the character, use the action button and provide guidance on the mechanics of the combat system.<br>
 
 ### Conversations
-For the conversations, I developed 4 conversation bubble sizes. The size of the chat bubble is dependent on the size of the current text message. In the current build, the size is selected manually for each message. The next step for this system is to create a function to determine the chat bubble size for each text message. Since the pixel art font I created is not monospaced, the function has to get the width of each character individually to get the size of the message and, based on that, determine the chat bubble size.<br>
+For the conversations, I developed 4 conversation bubble sizes. The size of the employed chat bubble is dependent on the size of the current text message. In the current build, the size was selected manually for each message. The next step for this system is to create a function to determine the chat bubble size for each text message. Since the pixel art font I created is not monospaced, the function has to get the width of each character individually to get the size of the message and, based on that, determine the chat bubble size.<br>
 
 <video src="assets/arpg_prototype/ui_chat.mp4" 
 autoplay
@@ -145,7 +145,7 @@ There are 4 types of bubbles:<br>
 - Action information (e.g.: "The door has been unlocked")<br>
 - Notifications/tutorial messages<br>
 
-Regarding multiple languages/translations, at this point the game is being developed in portuguese only, but the idea is to do something similar to what I used in Portugal Tourism GP (you can check the logic out in its in-depth page) to also make the game available in English.<br>
+Regarding multiple languages/translations, at this point the game has been developed in portuguese only, but the idea is to do something similar to what I used in Portugal Tourism GP (you can check the logic out in its in-depth page) to also make the game available in English.<br>
 
 ### Treasure chests and items
 For the chest UI, the special bubble shows up at the bottom-center displaying what the player has obtained.<br>
@@ -157,8 +157,8 @@ muted
 playsinline
 style="width:100%; max-width:480px; height:auto;"></video>
 
-I developed the logic for storing the items in the inventory but, for this build, I have not implemented the inventory management UI, other than the ones used in battle that show up in the bottom-left corner of the screen.
+I developed the logic for storing the items in the inventory but, for this build, I have not implemented the inventory management UI, except for the item battle UI that shows up in the bottom-left corner of the screen.
 
 ## Final thoughts
-This was just the prototype for the base gameplay loop, with some ideas I had. If continued, the final product would probably look very different as ideas were refined. As I was wrapping up the first build of the demo, I realized how big of task it is to develop a game alone in a reasonable amount of time. I have great respect for those who are able to follow this route and are able to release a full game on their own.
+This was just the prototype for the base gameplay loop, with some ideas I had. If continued, the final product would probably look very different as the concepts were refined. As I was wrapping up the first build of the demo, I realized how big of a task it is to develop a game alone in a reasonable amount of time. I have great respect for those who are able to go through it and are able to release a full game on their own.
 
