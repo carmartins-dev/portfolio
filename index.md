@@ -18,7 +18,7 @@ With this project I was aiming at creating a fully fledged story-driven game wit
 <img src="projects/assets/arpg_prototype/preview_cropped.png" alt="ARPG Cover" width="460" style="image-rendering: pixelated;"><br>
 
 Both the isometric look of the game and the story-heavy elements I had planned were inspired by titles such as Final Fantasy Tactics. 
-I had a lot of fun with this project. I was able to develop interesting gameplay systems and explored a lot of compelling game design ideas.
+In this project I was able to develop interesting gameplay systems and explored a lot of compelling game design ideas.
 
 [Click here](projects/arpg_prototype.md) to take an in-depth look at what I developed for this project, design choices and many other details.
 
@@ -36,3 +36,5 @@ As a finished, published game, this project exposed me to new challenges. At thi
 PTGP included online features such as public leaderboards and direct competitive races in streamed events, with prizes for the winners. To enable these competitions, I developed secure APIs to connect the game to its server to submit and update the player highscores. For the race events, I developed a custom Unity app to display the highscores, replays, sketches and also allow the players to interact with the stream itself via the game (emotes such as thumbs up, thumbs down, tomatoes, among others).
 
 Finally, I developed a website that showed all the information on the game, hosted the APIs and also displayed the leaderboards.
+
+To try it out, media, and gameplay, see the [Steam page](https://store.steampowered.com/app/3404160/Portugal_Tourism_GP/).
